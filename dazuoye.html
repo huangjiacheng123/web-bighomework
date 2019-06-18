@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>大作业</title>
+    <style type="text/css">
+        *{margin: 0;padding: 0;}
+        a{color: black;text-decoration: none;}
+        ul{list-style-type: none;}
+        #head0{
+            height: 26px;
+            width: 1920px;
+            margin-bottom: 40px;
+        }
+        #head1{
+            color: #0d0408;
+            font-size: 12.93px;
+            margin-left: 888px;
+            margin-right: 20px;
+        }
+        .head2{
+            font-size: 14.78px;
+            margin-right: 20px;
+        }
+        .head3{
+            border-style: none;
+            font-size: 14.78px;
+            margin-right: 20px;
+        }
+        #head4{
+            font-size: 14.78px;
+            margin-right: 15px;
+        }
+        #head5{
+            margin-right: 25px;
+        }
+        #title0{
+            width: 1920px;
+            height: 61px;
+            padding-bottom: 15px;
+            position: relative;
+        }
+        #title1{
+            margin-left: 365px;
+            margin-right: 175px;
+            position: absolute;
+        }
+        #title2{
+            display: inline-block;
+            position: absolute;
+            left:774px;
+        }
+        input{
+            width:455px;
+            height:46px;
+            font-size:14.78px;
+            margin-top: 15px;
+            border: 1px solid #000;
+            text-align: center;
+            color: #e4e4e4;
+        }
+        #title3{
+            width: 60px;
+            height: 41px;
+            border: 1px solid #000;
+            display: inline-block;
+            position: absolute;
+            left:1230px;
+            top: 15px;
+            text-align: center;
+            padding-top: 5px;
+        }
+        #title4{
+            margin-right: 360px;
+            margin-top: 30px;
+            float: right;
+            position: absolute;
+            right: 20px;
+        }
+        #head6{
+            margin-left: 365px;
+            width: 1920px;
+            height: 62px;
+        }
+        #head6>ul>li:hover{
+            color: #3aa747;
+            border-bottom: 3px solid #3aa747;
+            display: inline-block;
+        }
+        #title5{
+            margin-top: 34px; 
+        }
+        #title5>li{
+            display: inline-block;
+            margin-right: 30px; 
+            width: 82px;
+            text-align: center;
+        }
+        .daohang1{
+            border-style: none;
+            font-size: 14.78px;
+            margin-right: 20px;
+        }
+        #heng{
+            width: 1920px;
+            margin-top: 0px;
+            border:3px solid #3aa747;
+        }
+        #big{
+            height: 670px;
+            width: 100%;
+            background: url('xt/banner.png') no-repeat center;
+            border-bottom:2px solid #7f7f7f;
+        }
+        #left{
+            background-color: #181b17;
+            width: 80px;
+            height: 592px;
+            top: 190px;
+            right: 0px;
+            position: fixed;
+        }
+        .small{
+            width: 80px;
+            height: 74px;
+            border-bottom: 1px solid #606260;
+            padding-top: 46px;
+            text-align: center;
+        }
+        #small0{
+            width: 80px;
+            height: 74px;
+            padding-top: 46px;
+            text-align: center;
+        }
+        #heng1{
+            margin-top: 20px;
+            margin-left: 365px;
+            margin-bottom: 20px;
+        }
+        #left0{
+            font-size: 18px;
+        }
+        #left1{
+            font-size: 14px;
+        }
+        #right0{
+            font-size: 14px;
+            margin-right: 340px;
+            float: right;
+        }
+        #new0{
+            margin-left: 365px;
+        }
+        .title6{
+            width: 1200px;
+            height: 47px;
+            border: 1px solid #cccccc;
+        }
+        .title6>div{
+            display: inline-block;
+        }
+        .huise{
+            width: 100px;
+            height: 29px;
+            padding-top: 18px;
+            text-align: center;
+            color: #000;
+            display: inline-block;
+            background-color: #e5e5e5;
+        }
+        .huise2>div{
+            width: 120px;
+            color: #737373;
+            text-align: center;
+            display: inline-block;
+        }
+        .huise2>div:hover{
+            color: #71bb79;
+        }
+        #more{
+            font-size: 14px;
+            color: #737373;
+        }
+        #new{
+            width: 1300px;
+            height: 760px;
+            padding-top: 60px;
+            margin-left: 365px;
+            text-align: center;
+            display: inline-block;
+            position: relative;
+        }
+        #teshu1{
+            width: 272px;
+            height: 295px;
+            border:1px solid #000; 
+            position: absolute;
+            top: 68px;
+            left: 10px;
+        }#teshu2{
+            width: 272px;
+            height: 295px;
+            border:1px solid #000; 
+            position: absolute;
+            top: 68px;
+            left: 313px;
+        }#teshu3{
+            width: 272px;
+            height: 295px;
+            border:1px solid #000; 
+            position: absolute;
+            top: 68px;
+            left: 614px;
+        }#teshu4{
+            width: 272px;
+            height: 295px;
+            border:1px solid #000; 
+            position: absolute;
+            top: 68px;
+            left: 920px;
+        }#teshu5{
+            width: 272px;
+            height: 295px;
+            border:1px solid #000; 
+            position: absolute;
+            top: 400px;
+            left: 10px;
+        }#teshu6{
+            width: 272px;
+            height: 295px;
+            border:1px solid #000; 
+            position: absolute;
+            top: 400px;
+            left: 313px;
+        }#teshu7{
+            width: 272px;
+            height: 295px;
+            border:1px solid #000; 
+            position: absolute;
+            top: 400px;
+            left: 614px;
+        }#teshu8{
+            width: 272px;
+            height: 295px;
+            border:1px solid #000; 
+            position: absolute;
+            top: 400px;
+            left: 920px;
+        }
+        .xb{
+            position:absolute;
+            bottom: 0;
+            width: 275px;
+            height: 53px;
+            color: #fff;
+            background-color: rgba(0,0,0,0.7);
+        }
+        #new>div:hover .xb{
+            width: 272px;
+            height: 175px;
+            color: #fff;
+            font-size: 22.14px;
+            text-align: center;
+            padding-top:120px; 
+            background-color: rgba(0,0,0,0.7);
+        }
+        #last_but_one{
+            width: 1920px;
+            height: 110px;
+            background-color: #f5f5f5;
+        }
+        #last_but_one>div{
+            display: inline-block;
+        }
+        #last{
+            width: 1920px;
+            height: 100px;
+            background-color: #323232;
+            text-align: center;
+            font-size: 14px;
+            color: #fff;
+        }
+        .no5{font-size: 19px;}
+        .no6{font-size: 13px;}
+        .no0{display: inline-block;}
+        #no1{margin-left: 400px;}
+        #no2{margin-left: 100px;}
+        #no3{margin-left: 100px;}
+        #no4{margin-left: 100px;}
+    </style>
+</head>
+<body>
+    <div id="head0">
+        <span id="head1">嘿，欢迎来买猜商城!</span><span class="head2"><a href="#"> 请登录 </a></span><span class="head2"><a href="#"> 免费注册 </span><select name="biaodan1" class="head3"><option value="one" selected> 我的订单 </option></select><select name="biaodan2" class="head3"><option value="two" selected> 我的买猜 </option></select><span id="head4"> 帮助中心 </span><img src="xt/wb.png" alt="微博" id="head5"><img src="xt/wx.png" alt="微信">
+    </div>
+    <div id="title0">
+        <img src="xt/logo.png" alt="logo" id="title1"><div id="title2"><input type="text" name="sousuo" value="请输入关键词!"></div><div id="title3"><img src="xt/search.png"></div><img src="xt/cart.png" id="title4">
+    </div>
+    <div id="head6">
+        <ul id="title5">
+            <li></select><select name="daohang" class="daohang1"><option value="three" selected> 全部商品分类 </option></select></li>
+            <li>首页</li><li>名酒</li><li>茗茶</li><li>玉石</li><li>休闲食品</li><li>洗护用品</li><li>土特产</li><li>积分商城</li><li>抽奖游戏</li>
+        </ul>
+    </div>
+    <div id="heng"></div>
+    <div id="big"></div>
+    <div id="left">
+        <div class="small"><img src="xt/cart1.png"></div>
+        <div class="small"><img src="xt/qq.png"></div>
+        <div class="small"><img src="xt/zuji.png"></div>
+        <div class="small"><img src="xt/erweima.png"></div>
+        <div id="small0"><img src="xt/gotop.png"></div>
+    </div>
+    <div id="heng1"><span id="felt0">首页</span><span> > </span><span id="left1">玉石</span><span id="right0">共200件相关商品</span></div>
+    <div id="new0">
+        <div class="title6">
+            <div class="huise">玉石</div><div class="huise2"><div>白玉</div><div>碧玉</div><div>黄玉</div><div>和田玉</div><div>翡翠</div><div>绿松玉</div><div>墨玉</div></div>
+        </div>
+        <div class="title6">
+            <div class="huise">其他</div><div class="huise2"><div>吊坠</div><div>扳指</div><div>手镯</div></div>
+        </div>
+        <div class="title6">
+            <div class="huise">地区</div><div class="huise2"><div>北京</div><div>安徽</div><div>福建</div><div>内蒙古</div><div>宁夏</div><div>黑龙江</div><div>河北</div><div></div><div id="more">更多</div></div>
+        </div>
+    </div>   
+    <div id="new">
+            <div id="teshu1"><img src="xt/img1.png">
+                <div class="xb"><span class="text1">竞猜价：¥&nbsp;&nbsp;&nbsp;399.00 </span></br><span class="text2">翡翠婵吊坠</span></div></div>
+            <div id="teshu2"><img src="xt/img2.png">
+                <div class="xb"><span class="text1">竞猜价：¥&nbsp;&nbsp;&nbsp;1980.00 </span></br><span class="text2">翡翠龙凤吊坠</span></div></div>
+            <div id="teshu3"><img src="xt/img3.png">
+                <div class="xb"><span class="text1">竞猜价：¥&nbsp;&nbsp;&nbsp;199.00 </span></br><span class="text2">翡翠花蕊吊坠</span></div></div>
+            <div id="teshu4"><img src="xt/img4.png">
+                <div class="xb"><span class="text1">竞猜价：¥&nbsp;&nbsp;&nbsp;199.00 </span></br><span class="text2">翡翠如意吊坠</span></div></div>
+            <div id="teshu5"><img src="xt/img5.png">
+                <div class="xb"><span class="text1">竞猜价：¥&nbsp;&nbsp;&nbsp;99.00 </span></br><span class="text2">翡翠婵吊坠</span></div></div>
+            <div id="teshu6"><img src="xt/img6.png">
+                <div class="xb"><span class="text1">竞猜价：¥&nbsp;&nbsp;&nbsp;99.00 </span></br><span class="text2">翡翠观音(浅色)吊坠</span></div></div>
+            <div id="teshu7"><img src="xt/img7.png">
+                <div class="xb"><span class="text1">竞猜价：¥&nbsp;&nbsp;&nbsp;199.00 </span></br><span class="text2">翡翠平安扣(深色)吊坠</span></div></div>
+            <div id="teshu8"><img src="xt/img8.png">
+                <div class="xb"><span class="text1">竞猜价：¥&nbsp;&nbsp;&nbsp;199.00 </span></br><span class="text2">翡翠如意吊坠</span></div></div>
+    </div>   
+    <div id="last_but_one">
+        <br>
+        <div><img src="xt/f1.png" id="no1"><div class="no0"><div class="no5">资质认证</div><div class="no6">服务商100%实名认证</div></div></div>
+        <div><img src="xt/f2.png" id="no2"><div class="no0"><div class="no5">支付安全</div><div class="no6">明码标价支付及信息安全</div></div></div>
+        <div><img src="xt/f3.png" id="no3"><div class="no0"><div class="no5">保险赔付</div><div class="no6">为您提供担保赔付</div></div></div>
+        <div><img src="xt/f4.png" id="no4"><div class="no0"><div class="no5">售后无忧</div><div class="no6">服务出问题经理全程跟进</div></div></div>
+    </div>   
+    <div id="last">
+        </br><p>首页 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 工商代理 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 财务代记账 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 股权交易与变更 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 企业贷款 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 办公室租赁 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 社保公积金代理 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 法律服务   </p>
+        </br><p>© 2017-2018 买猜商城有限公司 版权所有© 2017-2018 买猜商城有限公司 版权所有</p>
+    </div>   
+</body>
+</html>
